@@ -1,0 +1,83 @@
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.sub-container {
+  margin-top: 40px;
+  width: 80%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.heading {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+@media screen and (min-width : 768px) {
+  .heading{
+    font-size: 60px;
+  }
+}
+.profile-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+@media screen and (min-width : 768px){
+  .profile-icon{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
+}
+.slide-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.companyname {
+  color: #171f46;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width : 768px){
+  .companyname{
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+}
+.description {
+  color: #171f46;
+  font-size: 10px;
+  text-align: center;
+}
+@media screen and (min-width : 768px) {
+  .description{
+    font-size: 20px;
+  }
+}
+.name {
+  font-size: 15px;
+  color: #ffffff;
+  align-self: flex-start;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 30px;
+  }
+}
